@@ -1,7 +1,7 @@
 import React from 'react';
 import {Accordion, Card} from 'react-bootstrap';
 import '../css/FAQ.css';
-import '../css/App.css';
+import '../css/App.css'
 import ContextAwareToggle from './ContextAwareToggle';
 import twoo_faq from '../media/twoo_faq.webm';
 //import twoo_faq_back from '../media/twoo_faq.gif';
