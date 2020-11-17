@@ -1,7 +1,7 @@
 import React from 'react';
 
 import {Container, Row, Col, Image} from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
+//import 'bootstrap/dist/css/bootstrap.min.css';
 
 import hackhackers from "../media/challenges/hackhackers.gif"
 import hackforgood from "../media/challenges/hackforgood.gif"

@@ -4,7 +4,7 @@ import '../css/FAQ.css';
 import '../css/App.css';
 import ContextAwareToggle from './ContextAwareToggle';
 import twoo_faq from '../media/twoo_faq.webm';
-import twoo_faq_back from '../media/twoo_faq.gif';
+//import twoo_faq_back from '../media/twoo_faq.gif';
 import {useMediaQuery} from 'react-responsive';
 import {isSafari} from 'react-device-detect';
 
@@ -177,7 +177,8 @@ const FAQ = () => {
                         Sorry, your browser doesn't support embedded videos.
                     </video>
                 ) : (
-                  <img src={twoo_faq_back} alt="He's just sittin' there..." style={{width: isDesktop ? '75%' : '40%'}}/>
+                  //changed from faq_back
+                  <img src={twoo_faq} alt="He's just sittin' there..." style={{width: isDesktop ? '75%' : '40%'}}/>
                 )
               }
                 

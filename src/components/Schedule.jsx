@@ -2,7 +2,11 @@ import React from 'react';
 import {Tabs, Tab} from 'react-bootstrap';
 import '../css/table.css';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
+//changed
+//import 'bootstrap/dist/css/bootstrap.min.css';
+//to
+import '../css/dist_css/bootstrap.css';
+
 
 
 const Schedule = () => (

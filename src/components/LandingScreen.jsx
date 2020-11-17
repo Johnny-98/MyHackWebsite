@@ -8,7 +8,7 @@ import RegisterButton from './RegisterButton';
 import LandingArrow from './LandingArrow';
 
 import landing_video from '../media/twoo_landing.webm';
-import landing_video_back from '../media/twoo-flying.gif';
+//import landing_video_back from '../media/twoo-flying.gif';
 
 const LandingScreen = () => {
 
@@ -25,7 +25,8 @@ const LandingScreen = () => {
                                 
                         Sorry, your browser doesn't support embedded videos.
                     </video>) : (
-                        <img src={landing_video_back} alt="Look at him go!" style={{width: "40%"}} />
+                        //changed from video_back
+                        <img src={landing_video} alt="Look at him go!" style={{width: "40%"}} />
                     )}
                 </p>) : (<p>
                 {!isSafari ? (
@@ -36,7 +37,8 @@ const LandingScreen = () => {
                     Sorry, your browser doesn't support embedded videos.
                 </video>
                 ) : (
-                    <img src={landing_video_back} alt="Look at him go!" style={{width: "90%", paddingTop: '50px'}} />
+                    //changed from video_back
+                    <img src={landing_video} alt="Look at him go!" style={{width: "90%", paddingTop: '50px'}} />
                 )}</p>
                 )
             }

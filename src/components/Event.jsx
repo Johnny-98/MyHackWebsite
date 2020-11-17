@@ -2,10 +2,10 @@ import React from 'react';
 import {useMediaQuery} from 'react-responsive';
 import {isSafari} from 'react-device-detect';
 
-import '../css/Description.css'
+//import '../css/Description.css'
 import '../css/App.css'
 import event_video from '../media/oxhack-twoo-2020.webm'
-import event_gif from '../media/oxhack-twoo-2020.gif'
+//import event_gif from '../media/oxhack-twoo-2020.gif'
 
 const Description = () => {
     const isDesktop = !useMediaQuery({ query: '(max-width: 1224px)' });
@@ -24,7 +24,8 @@ const Description = () => {
 
                             Sorry, your browser doesn't support embedded videos.
                         </video>) : (
-                            <img src={event_gif} alt="Look at him go!" style={{width: "75%"}} />
+                            //changed from .gif
+                            <img src={event_video} alt="Look at him go!" style={{width: "75%"}} />
                     ))}
                 </div>
                 <div className="col-lg-6 col-md-12 order-last">

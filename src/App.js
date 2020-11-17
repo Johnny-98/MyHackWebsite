@@ -1,6 +1,6 @@
 import React from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
-import 'bootstrap/dist/css/bootstrap.min.css';
+//import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/App.css';
 
 import Navbar from './components/Navbar'; 
@@ -18,7 +18,7 @@ import Challenges from './components/Challenges';
 
 import BackgroundEffect from './components/BackgroundEffect';
 
-import "animate.css/animate.min.css";
+import "./css/animate.min.css";
 
 /*
 import Committee from './components/Committee';
