@@ -1,0 +1,149 @@
+$base-duration: 250ms;
+
+// Colors
+$primary: #f3b24f;
+$accent: #46627f;
+$white: whitesmoke;
+$color-3: #bdc3c7;
+
+// Breakpoints
+$sm: 20rem;
+$med: 48rem;
+$lg: 64rem;
+
+*, *:before, *:after {
+	box-sizing: border-box;
+	outline: none;
+}
+
+.social {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 1.5;
+	color: #444;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	//width: 100%;
+    //height: 100vh;
+    max-width: 300px;
+    max-height: 75px;
+	background-color: $color-3;
+}
+
+.hover {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 300px;
+	height: 75px;
+	background-color: $primary;
+	border-radius: 99px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    overflow: hidden;
+    
+    @media only screen and (min-width: 1224px) {
+
+	&:before,
+	&:after {
+		position: absolute;
+		top: 0;
+		display: flex;
+		align-items: center;
+		width: 50%;
+		height: 100%;
+		
+		//letter-spacing: -0.0625rem;
+		transition: 0.25s linear;
+		z-index: 1;
+	}
+	&:before {
+		content: '';
+		left: 0;
+		justify-content: flex-end;
+		background-color: $primary;
+	}
+	&:after {
+		content: '';
+		right: 0;
+		justify-content: flex-start;
+		background-color: darken($primary,5%);
+	}
+	&:hover {
+		background-color: $accent;
+		box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+		span {
+			opacity: 0;
+			z-index: -3;
+		}
+		&:before {
+			opacity: 0.5;
+			transform: translateY(-100%);
+		}
+		&:after {
+			opacity: 0.5;
+			transform: translateY(100%);
+		}
+    }
+    span {
+		position: absolute;
+		top: 0;
+		left: 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		height: 100%;
+		color: $white;
+		font-family: 'Fira Mono', monospace;
+		font-size: 24px;
+		font-weight: 700;
+		opacity: 1;
+		transition: opacity 0.25s;
+		z-index: 2;
+	}}
+    
+    @media only screen and (max-width: 1223px) {
+            background-color: $accent;
+            box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+            span {
+                display: none;
+            }
+            opacity: 1;
+
+    }
+	.social-link {
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 33%;
+		height: 100%;
+		color: $white;
+		font-size: 24px;
+		text-decoration: none;
+		transition: 0.25s;
+		i {
+			text-shadow: 1px 1px rgba($accent,0.7);
+			transform: scale(1.0);
+		}
+		&:hover {
+			background-color: rgba($white,0.1);
+			i {
+				animation: bounce 0.4s linear;
+			}
+		}
+	}
+}
+
+@keyframes bounce {
+	40% { transform: scale(1.4); }
+	60% { transform: scale(0.8); }
+	80% { transform: scale(1.2); }
+	100% { transform: scale(1.0); }
+}

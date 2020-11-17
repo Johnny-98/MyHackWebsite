@@ -1,0 +1,26 @@
+.cf {
+  position:relative;
+  height:200px;
+  width:200px;
+  margin:0 auto;
+  margin: 1rem;
+}
+
+.cf img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ;
+  -moz-transition: opacity 1s ;
+  -o-transition: opacity 1s ;
+  transition: opacity 1s ;
+}
+
+.cf img.top:hover {
+  opacity:0;
+}
+
+.default-image {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}

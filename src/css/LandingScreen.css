@@ -1,0 +1,13 @@
+.landing {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    padding-top: 75px;
+}
+
+.landingvideo p {
+    margin-left: auto;
+    margin-right: auto;
+}

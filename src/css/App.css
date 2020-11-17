@@ -1,0 +1,108 @@
+/*
+top-color: #030305
+bottom-color: #3F2262
+
+*/
+
+html,
+body {
+    background: linear-gradient(#030305, #3F2262);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% auto;
+    padding: 0;
+    overflow-x: hidden;
+    max-width: 100%;
+    scroll-behavior: smooth;
+    z-index: 1;
+    padding-right: 0 !important;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: stretch;
+}
+
+.default {
+    color: white;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    margin-bottom: 3vw;
+}
+
+.subheadings {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    text-align: justify;
+    text-align-last: left;
+}
+
+.faq-question {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    text-align: justify;
+    text-align-last: left;
+}
+
+.faq-question h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    text-align-last: center;
+
+}
+
+.card-body {
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: white;
+    text-align: justify;
+    text-align-last: center;
+    margin-bottom: 1.5rem;
+}
+
+.coding {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 1000;
+    font-size: 22px;
+    color: white;
+}
+
+.example-media {
+    padding-top: 56.25%;
+    margin: 20px;
+    background-color: blue;
+}
+
+.example-media-mobile {
+    padding-top: 56.25%;
+    width: 100%;
+    background-color: blue;
+}
+
+.example-media-desktop {
+    padding-top: 30%;
+    width: 100%;
+    background-color: blue;
+}

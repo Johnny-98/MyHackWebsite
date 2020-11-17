@@ -1,0 +1,35 @@
+.header {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    margin-left: 1%;
+    margin-right: 1%;
+    width: 98%;
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+.bar {
+  justify-content: right;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+.element {
+  margin: 15px;
+}
+
+.element-big {
+  margin: 15px;
+  font-size: 30px;
+}
+
+.mlh-element {
+  margin: 15px 15px 15px 50px;
+}

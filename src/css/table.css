@@ -1,0 +1,105 @@
+.tg {
+    border-collapse: collapse;
+    border-color: #aaa;
+    border-spacing: 0;
+    min-width: min(650px, 100%);
+    max-width: 100% !important;
+}
+
+.tg td {
+    background-color: #FCFBE311;
+    border-color: #aaa;
+    border-style: solid;
+    border-width: 1px;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+    padding: 10px 5px;
+    word-break: normal;
+    
+}
+
+.nav {
+    -webkit-overflow-scrolling: touch;
+    overflow-x: auto !important;
+}
+
+
+.nav-link, .nav-link:visited, .nav-link:hover, .nav-link:active {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    position: relative;
+    transition: 0.5s color ease;
+    text-decoration: none;
+    color: #ffffff;
+    /*font-size: 2.5em; */
+    border: 0 !important;
+    flex: 1;
+    display: flex;
+    overflow: auto;
+}
+
+.nav-link:hover {
+    color: #f3b24f;
+    border: 0 !important;
+
+}
+
+.nav-link:after {
+    left: 0;
+    top: -0.25em;
+    height: 2px;
+    width: 0;
+    background: #f3b24f;
+    content: "";
+    transition: 0.5s all ease;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    border: 0 !important;
+
+}
+
+.nav-link:hover:after {
+    width: 100%;
+    border: 0 !important;
+
+}
+
+.tg th {
+    background-color: #f3b24fee;
+    border-color: #aaa;
+    border-style: solid;
+    border-width: 1px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: normal;
+    overflow: hidden;
+    padding: 10px 5px;
+    word-break: normal;
+    
+}
+
+.tg .tg-7d57 {
+    background-color: #FCFBE333;
+    border-color: inherit;
+    text-align: center;
+    vertical-align: top
+}
+
+.tg .tg-0pky {
+    border-color: inherit;
+    text-align: center;
+    vertical-align: top
+}
+
+.tg .tg-0lax {
+    text-align: center;
+    vertical-align: top
+}
+
+.tg .tg-dg7a {
+    background-color: #FCFBE3;
+    text-align: center;
+    vertical-align: top
+}
