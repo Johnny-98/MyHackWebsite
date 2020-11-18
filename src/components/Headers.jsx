@@ -4,6 +4,7 @@ import RegisterButton from './RegisterButton';
 import '../css/Headers.css'
 import '../css/App.css'
 import '../css/FancyLinks.css';
+import Test from './test'
 
 
 import logo from '../media/logo.png'
@@ -21,6 +22,7 @@ const FullHeader = () => (
             <a className="first after fancy" href="#committee" onClick={() => false}><p className="element"> Committee </p></a>
             <a className="first after fancy" href="#sponsors" onClick={() => false}><p className="element"> Sponsors </p></a>
             <RegisterButton />
+            <Test/>
             <a id="mlh-trust-badge" style={{
                 maxWidth: '100px',
                 minWidth: '60px',
@@ -65,6 +67,7 @@ const HamburgerHeader = () => (
             <a className="first after fancy" href="#faq" onClick={() => false}><p className="element-big"> FAQ </p></a>
             <a className="first after fancy" href="#committee" onClick={() => false}><p className="element-big"> Committee </p></a>
             <a className="first after fancy" href="#sponsors" onClick={() => false}><p className="element-big"> Sponsors </p></a>
+            <Test/>
             {/*<a className="first after fancy" href="#register" onClick={() => false}><p className="element-big"> Register </p></a>*/}
         </Overlay>
     </div>
