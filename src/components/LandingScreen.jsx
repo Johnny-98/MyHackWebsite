@@ -3,12 +3,11 @@ import '../css/LandingScreen.css';
 import '../css/App.css'
 import { useMediaQuery } from 'react-responsive';
 import {isSafari} from 'react-device-detect';
-
-import RegisterButton from './RegisterButton';
+import GithubButton from './GithubButton';
 import LandingArrow from './LandingArrow';
 
 import landing_video from '../media/twoo_landing.webm';
-//import landing_video_back from '../media/twoo-flying.gif';
+
 
 const LandingScreen = () => {
 
@@ -48,7 +47,7 @@ const LandingScreen = () => {
             </p>
 
             {/*TODO:why do we only allow this for mobile??*/}
-            {!isDesktop && <RegisterButton place="front" />}
+            {!isDesktop && <GithubButton place="front" />}
             <LandingArrow />
         </div>
     );
