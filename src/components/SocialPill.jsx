@@ -13,7 +13,7 @@ const SocialPill = () => {
     return (
         <div style={!isDesktop ? { position: "absolute", left: "50%", transform: "translateX(-50%)" } : {}} >
             <div className="hover social" style={!isDesktop ? { position: "unset" }: {}} >
-                <span>Follow us</span>
+                <span>Follow me</span>
                 <a className="social-link" href="https://www.facebook.com/oxfordhack2020" target="_blank">
                     <FontAwesomeIcon icon={['fab', 'facebook']} />
                 </a>

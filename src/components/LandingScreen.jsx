@@ -7,6 +7,7 @@ import GithubButton from './GithubButton';
 import LandingArrow from './LandingArrow';
 
 import landing_video from '../media/twoo_landing.webm';
+import User from './User_Icon'
 
 
 const LandingScreen = () => {
@@ -15,7 +16,7 @@ const LandingScreen = () => {
 
     return (
         <div className="landing">
-            {isDesktop ? (
+            {/* {isDesktop ? (
                 <p style={{width: '100%'}}>
                     {!isSafari ? (
                     <video autoPlay loop muted width={'40%'}>
@@ -40,7 +41,10 @@ const LandingScreen = () => {
                     <img src={landing_video} alt="Look at him go!" style={{width: "90%", paddingTop: '50px'}} />
                 )}</p>
                 )
-            }
+            } */}
+            <div className="landing"  >
+                <User />
+            </div>
             <p className="coding">
                 LET YOUR IDEAS TAKE FLIGHT, <br/>
                 SLEEP ALL DAY AND CODE ALL NIGHT!

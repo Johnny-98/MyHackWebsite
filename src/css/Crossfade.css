@@ -1,7 +1,7 @@
 .cf {
   position:relative;
-  height:200px;
-  width:200px;
+  height:500px;
+  width:500px;
   margin:0 auto;
   margin: 1rem;
 }
@@ -20,7 +20,7 @@
 }
 
 .default-image {
-  height: 200px;
-  width: 200px;
+  height: 500px;
+  width: 500px;
   border-radius: 50%;
 }

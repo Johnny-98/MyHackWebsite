@@ -12,7 +12,7 @@ import logo from '../media/logo.png'
 
 const FullHeader = () => (
     <div className="header">
-        <a href="#landingscreen" onClick={() => false}><img src={logo} alt="Logo" style={{maxHeight: "75px"}} /></a>
+        <a href="#landingscreen"></a>
         <div className="bar">
             <a className="first after fancy" href="#about"><p className="element"> About </p></a>
             <a className="first after fancy" href="#event" onClick={() => false}><p className="element"> Event </p></a>
@@ -28,7 +28,7 @@ const FullHeader = () => (
 
 const HamburgerHeader = () => (
     <div className="header">
-        <a href="#landingscreen" onClick={() => false}><img src={logo} alt="Logo" style={{maxHeight: "70px", padding: "5px"}} /></a>
+        <a href="#landingscreen"></a>
         <Overlay>
             <a className="first after fancy" href="#landingscreen"><p className="element-big"> Home </p></a>
             <a className="first after fancy" href="#about"><p className="element-big"> About </p></a>

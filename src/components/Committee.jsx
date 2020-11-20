@@ -13,6 +13,8 @@ import sonianormal from '../media/committee/Sonia 1.jpg';
 import soniafun from '../media/committee/Sonia2.jpg';
 import dennormal from '../media/committee/Den_normal.jpg';
 import denfun from '../media/committee/Den_fun.jpg';
+import PeterSmol from '../media/committee/Peter1.png'
+import PeterBig from '../media/committee/Peter2.jpg'
 
 import '../css/Committee.css';
 import '../css/App.css';
@@ -24,8 +26,8 @@ const Committee = () => (
         <div className="committee-row">
             <div className="committee-sec">
                 <div className="committee-col">
-                    <Crossfade img1={alexnormal} img2={alexfun}/>
-                    <h3>Alexandra Manciu</h3>
+                    <Crossfade img1={PeterSmol} img2={PeterBig}/>
+                    <h3>Peter Dzhonov</h3>
                     <h5>HACKATHON DIRECTOR</h5>
                 </div>
                 <div className="committee-col">
