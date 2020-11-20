@@ -9,14 +9,6 @@ import onehack from "../media/challenges/onehack.png"
 import ultimateisolation from "../media/challenges/ultimateisolation.png"
 import whatthehack from "../media/challenges/whatthehack.png"
 
-import vmware from '../media/sponsors/vmware.png';
-import here from '../media/sponsors/here.png';
-import echoAR from '../media/sponsors/echoAR.png';
-import mathworks from '../media/sponsors/mathworks_logo.png';
-
-import googlecloud from '../media/sponsors/GoogleCloud.png';
-import datastax from '../media/sponsors/datastax.jpg';
-import domaincom from '../media/sponsors/domaincom.svg';
 
 import '../css/App.css'
 

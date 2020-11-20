@@ -1,8 +1,8 @@
 import React from 'react';
 import Crossfade from './Crossfade';
 
-import PeterZoom from '../media/committee/Peter1.png'
-import Peter from '../media/committee/Peter2.jpg'
+import PeterZoom from '../media/Icons/Peter1.png'
+import Peter from '../media/Icons/Peter2.jpg'
 
 import '../css/User_Icon.css';
 import '../css/App.css';
