@@ -4,15 +4,13 @@ import GithubButton from './GithubButton';
 import '../css/Headers.css'
 import '../css/App.css'
 import '../css/FancyLinks.css';
-
-
-import logo from '../media/logo.png'
-
+import {FaLaptopCode} from 'react-icons/fa';
 
 
 const FullHeader = () => (
     <div className="header">
-        <a href="#landingscreen"></a>
+        
+        <a className="icon" ><FaLaptopCode/></a>
         <div className="bar">
             <a className="first after fancy" href="#landingscreen"><p className="element"> Home </p></a>
             <a className="first after fancy" href="#about"><p className="element"> About </p></a>
@@ -25,13 +23,12 @@ const FullHeader = () => (
 
 const HamburgerHeader = () => (
     <div className="header">
-        <a href="#landingscreen"></a>
+        <a className="icon" ><FaLaptopCode/></a>
         <Overlay>
             <a className="first after fancy" href="#landingscreen"><p className="element-big"> Home </p></a>
             <a className="first after fancy" href="#about"><p className="element-big"> About </p></a>
             <a className="first after fancy" href="#schedule" onClick={() => false}><p className="element-big"> Skills </p></a>
             <a className="first after fancy" href="#projects" onClick={() => false}><p className="element-big"> Projects </p></a>
-            {/*<a className="first after fancy" href="#register" onClick={() => false}><p className="element-big"> Register </p></a>*/}
         </Overlay>
     </div>
 );

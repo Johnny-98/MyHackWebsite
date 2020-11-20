@@ -3,8 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-free-solid": "^5.0.13",
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
     "@fortawesome/free-brands-svg-icons": "^5.15.1",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
     "@fortawesome/react-fontawesome": "^0.1.12",
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.1.2",
@@ -16,6 +18,7 @@
     "react-device-detect": "^1.14.0",
     "react-dom": "^17.0.1",
     "react-hamburger-button": "0.0.1",
+    "react-icons": "^3.11.0",
     "react-jss": "^10.5.0",
     "react-mailchimp-form": "^1.0.2",
     "react-mailchimp-subscribe": "^2.1.0",

@@ -1,8 +1,11 @@
 import React from 'react';
 
-import '../css/SocialPill.scss';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import '../css/SocialPill.scss'; 
+import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
 import { useMediaQuery } from 'react-responsive';
+
+
+
 
 
 
@@ -13,15 +16,15 @@ const SocialPill = () => {
     return (
         <div style={!isDesktop ? { position: "absolute", left: "50%", transform: "translateX(-50%)" } : {}} >
             <div className="hover social" style={!isDesktop ? { position: "unset" }: {}} >
-                <span>Follow me</span>
+                <span>Follow us</span>
                 <a className="social-link" href="https://www.facebook.com/oxfordhack2020" target="_blank">
-                    <FontAwesomeIcon icon={['fab', 'facebook']} />
+                    <FaEnvelope/>
                 </a>
                 <a className="social-link" href="https://medium.com/@OxfordHack" target="_blank">
-                    <FontAwesomeIcon icon={['fab', 'medium']} />
+                    <FaGithub/>
     </a>
                 <a className="social-link" href="https://www.youtube.com/channel/UCEwhr5k4KNnkKgTEbh62p1Q" target="_blank">
-                    <FontAwesomeIcon icon={['fab', 'youtube']} />
+                    <FaLinkedin/>
                 </a>
             </div>
         </div>

@@ -16,7 +16,7 @@ const GithubButton = () => {
     return (
       <div>
         {isDesktop ? (
-            <a className="first" href="https://github.com/Johnny-98" style={{flexShrink: 0, marginRight: "10px", color: "#f3b24f"}}><p className="element"> Github </p></a>
+            <a className="first" href="https://github.com/Johnny-98" style={{flexShrink: 0, marginRight: "10px", color: "#4ff357"}}><p className="element"> Github </p></a>
         ) : (
         <div>
             <a className="button" href="https://github.com/Johnny-98" >

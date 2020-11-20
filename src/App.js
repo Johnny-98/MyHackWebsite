@@ -15,11 +15,6 @@ import BackgroundEffect from './components/BackgroundEffect';
 
 import "./css/animate.min.css";
 
-/*
-import Committee from './components/Committee';
-import Footer from './components/Footer';
-*/ 
-
 const App = () => (
   <div className="App">
     <BackgroundEffect />
