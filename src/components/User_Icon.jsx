@@ -1,6 +1,5 @@
 import React from 'react';
 import Crossfade from './Crossfade';
-
 import PeterZoom from '../media/Icons/Peter1.png'
 import Peter from '../media/Icons/Peter2.jpg'
 

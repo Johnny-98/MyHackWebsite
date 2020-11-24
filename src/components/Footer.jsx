@@ -1,7 +1,7 @@
 import React from 'react';
 import '../css/Footer.css';
 
-import skyline from '../media/bgskyline.png';
+import skyline from '../media/forest1.png';
 
 const Footer = () => (
     <div className="footer">

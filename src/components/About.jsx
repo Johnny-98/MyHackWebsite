@@ -1,5 +1,4 @@
 import React from 'react';
-import Video from './Youtube.jsx';
 import programmer from '../media/programmer.gif'
 
 
@@ -16,7 +15,7 @@ const About = () => (
                 <div className="col-lg-6 col-md-12 order-last">
                 <div className="title">ABOUT ME</div>
                     <p className="main-text">
-                    Oxford Hack is the official Oxford student Hackathon, where over 300 people gather every year to collaborate, innovate, learn and experiment while creating a project from scratch in 36 hours. We give you all the resources you need, from hardware and APIs to workshops, sponsors and volunteers who can help you with whatever questions you might have. In a few words, you attend to have fun, learn things you didn’t even know existed and see your ideas come to life. This year we are moving everything digitally - for more information about what is going to change, check out the Event section or the FAQs.
+                    The history of textbooks dates back to ancient civilizations. For example, Ancient Greeks wrote educational texts. The modern textbook has its roots in the mass production made possible by the printing press. Johannes Gutenberg himself may have printed editions of Ars Minor, a schoolbook on Latin grammar by Aelius Donatus. Early textbooks were used by tutors and teachers (e.g. alphabet books), as well as by individuals who taught themselves.
                     </p>
                 </div>
                
