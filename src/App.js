@@ -11,6 +11,7 @@ import SocialPill from './components/SocialPill';
 import Schedule from './components/Schedule';
 import Projects from './components/Projects';
 
+
 import BackgroundEffect from './components/BackgroundEffect';
 
 import "./css/animate.min.css";
@@ -40,8 +41,7 @@ const App = () => (
         <div style={{marginBottom: "5vw"}} />
         <ScrollAnimation animateIn='animate__fadeIn'
           animateOut='animate__fadeOut'>
-        <div id="projects" style={{paddingTop: "10vw"}}><Projects /></div>
-
+        <div id="projects" style={{paddingTop: "10vw"}}><Projects /></div>>
         </ScrollAnimation>
         <div style={{marginBottom: "5vw"}} />
         <SocialPill />

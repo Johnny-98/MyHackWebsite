@@ -1,40 +1,40 @@
 .cf {
-  position:relative;
-  height:500px;
-  width:500px;
-  margin:0 auto;
-  margin: 1rem;
+    position: relative;
+    height: 500px;
+    width: 500px;
+    margin: 0 auto;
+    margin: 1rem;
 }
 
 .cf_small {
-  position:relative;
-  height:300px;
-  width:300px;
-  margin:0 auto;
-  margin: 1rem;
+    position: relative;
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+    margin: 1rem;
 }
 
 .cf img {
-  position:absolute;
-  left:0;
-  -webkit-transition: opacity 1s ;
-  -moz-transition: opacity 1s ;
-  -o-transition: opacity 1s ;
-  transition: opacity 1s ;
+    position: absolute;
+    left: 0;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
 }
 
 .cf img.top:hover {
-  opacity:0;
+    opacity: 0;
 }
 
 .default-image {
-  height: 500px;
-  width: 500px;
-  border-radius: 50%;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
 }
 
 .small-image {
-  height: 300px;
-  width: 300px;
-  border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
 }

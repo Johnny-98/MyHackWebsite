@@ -1,7 +1,7 @@
 import React from 'react';
 import Overlay from './Overlay';
 import GithubButton from './GithubButton';
-import '../css/Headers.css'
+import '../css/Headers.scss'
 import '../css/App.css'
 import '../css/FancyLinks.css';
 import {FaLaptopCode} from 'react-icons/fa';
@@ -10,7 +10,7 @@ import {FaLaptopCode} from 'react-icons/fa';
 const FullHeader = () => (
     <div className="header">
         
-        <a className="icon" ><FaLaptopCode/></a>
+        <a className="icon" ><FaLaptopCode /></a>
         <div className="bar">
             <a className="first after fancy" href="#landingscreen"><p className="element"> Home </p></a>
             <a className="first after fancy" href="#about"><p className="element"> About </p></a>

@@ -1,13 +1,14 @@
 import React from 'react';
 
 import { Container, Row, Col, Image } from 'react-bootstrap';
-//import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 import hackhackers from "../media/challenges/hackhackers.gif"
 import hackforgood from "../media/challenges/hackforgood.gif"
 import onehack from "../media/challenges/onehack.png"
 import ultimateisolation from "../media/challenges/ultimateisolation.png"
 import whatthehack from "../media/challenges/whatthehack.png"
+import '../css/Projects.css'
 
 
 import '../css/App.css'
@@ -17,10 +18,15 @@ const Projects = () => {
     return (
         <div>
             <div className="title">MY PROJECTS</div>
+
+
             <Container fluid>
+                
                 <Row className="p-5">
                     <Col lg={3} xs={12} className="ml-auto mr-auto">
-                        <Image src={hackhackers} alt="Hack the hackers challenge" fluid />
+                        <div className="pop_effect">
+                            <Image src={hackhackers} alt="Hack the hackers challenge" fluid />
+                        </div>     
                     </Col>
                     <Col lg={6} xs={12} className="align-self-center">
                         <h3 style={{ color: "white" }}>Hack the hackers’ hack</h3>

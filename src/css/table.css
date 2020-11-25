@@ -35,7 +35,6 @@
     /*font-size: 2.5em; */
     border: 0 !important;
     flex: 1;
-    display: flex;
     overflow: auto;
 }
 
