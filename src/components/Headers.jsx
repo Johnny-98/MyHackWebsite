@@ -14,8 +14,8 @@ const FullHeader = () => (
         <div className="bar">
             <a className="first after fancy" href="#landingscreen"><p className="element"> Home </p></a>
             <a className="first after fancy" href="#about"><p className="element"> About </p></a>
-            <a className="first after fancy" href="#schedule" onClick={() => false}><p className="element"> Skills </p></a>
             <a className="first after fancy" href="#projects" onClick={() => false}><p className="element"> Projects </p></a>
+            <a className="first after fancy" href="#skills" onClick={() => false}><p className="element"> Skills </p></a>
             <GithubButton/>
         </div>
     </div>

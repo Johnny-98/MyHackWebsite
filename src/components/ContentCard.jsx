@@ -4,7 +4,7 @@ import '../css/App.css';
 
 function ContentItem(props) {
     return (
-        <div className='committee-col' to={props.path}>
+        <div className='project-col' to={props.path}>
             <div  className="pop_effect">
                 <div className='contenty'>
                     

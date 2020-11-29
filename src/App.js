@@ -8,7 +8,7 @@ import LandingScreen from './components/LandingScreen';
 import About from './components/About';
 import Footer from './components/Footer';
 import SocialPill from './components/SocialPill';
-import Schedule from './components/Schedule';
+import Projects from './components/Projects';
 import Terminal from './components/Terminal/Skills';
 
 
@@ -36,14 +36,14 @@ const App = () => (
         <div style={{marginBottom: "5vw"}} />
         <ScrollAnimation animateIn='animate__fadeIn'
           animateOut='animate__fadeOut'>
-        <div id="schedule" style={{paddingTop: "10vw"}}><Schedule /></div>
+        <div id="projects" style={{paddingTop: "10vw"}}><Projects /></div>
         </ScrollAnimation>
-        <div style={{marginBottom: "5vw"}} />
+        <div style={{marginBottom: "15vw"}} />
         <ScrollAnimation animateIn='animate__fadeIn'
           animateOut='animate__fadeOut'>
-        <div id="projects" style={{paddingTop: "10vw"}}><Terminal /></div>
+        <div id="skills" style={{paddingTop: "10vw"}}><Terminal /></div>
         </ScrollAnimation>
-        <div style={{marginBottom: "5vw"}} />
+        <div style={{marginBottom: "15vw"}} />
         <SocialPill />
         <div style={{marginBottom: "5vw"}} />
         <div id="footer" style={{paddingTop: "5vw"}}><Footer /></div>

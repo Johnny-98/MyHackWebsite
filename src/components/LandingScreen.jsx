@@ -15,32 +15,6 @@ const LandingScreen = () => {
 
     return (
         <div className="landing">
-            {/* {isDesktop ? (
-                <p style={{width: '100%'}}>
-                    {!isSafari ? (
-                    <video autoPlay loop muted width={'40%'}>
-                        <source src={landing_video}
-                                type="video/webm"/>
-                                
-                        Sorry, your browser doesn't support embedded videos.
-                    </video>) : (
-                        //changed from video_back
-                        <img src={landing_video} alt="Look at him go!" style={{width: "40%"}} />
-                    )}
-                </p>) : (<p>
-                {!isSafari ? (
-                <video autoPlay loop muted width={'90%'} style={{paddingTop: '50px'}}>
-                    <source src={landing_video}
-                            type="video/webm"/>
-                            
-                    Sorry, your browser doesn't support embedded videos.
-                </video>
-                ) : (
-                    //changed from video_back
-                    <img src={landing_video} alt="Look at him go!" style={{width: "90%", paddingTop: '50px'}} />
-                )}</p>
-                )
-            } */}
             <div className="landing"  >
                 <User />
             </div>
