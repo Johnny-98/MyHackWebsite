@@ -7,8 +7,8 @@ class Circles extends Component {
             display:"inline-block",
             backgroundColor: this.props.bgColor,
             borderRadius: "50%",
-            width:16,
-            height:16,
+            width:15,
+            height:15,
         };
         return (
             <div style={circleStyle}>

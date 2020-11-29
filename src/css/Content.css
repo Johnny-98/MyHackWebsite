@@ -64,4 +64,9 @@
     -o-transition: opacity 1s;
     transition: opacity 1s;
     border-radius: 20%;
+
 }
+
+.pop_effect:hover {
+    transform: scale(1.1);
+  }

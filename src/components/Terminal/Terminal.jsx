@@ -14,9 +14,7 @@ function Terminal() {
 
     const content = (
         <div className="terminalHead2">
-            <div class="consoleInfo1">C:\Users\Femi{'>'}python</div>
-            <div class="consoleInfo2">Python 3.8.1 (tags/v3.8.1:1b293b6, {getToday()}) [MSC v.1916 32 bit (Intel)] on win32</div>
-            <div class="consoleInfo3">Type "help", "copyright", "credits" or "license" for more information.</div>
+
             <div class="row1">
                 <div class="console"> {'>'} </div>
                 <div class="console">{'>'} </div>
@@ -29,14 +27,15 @@ function Terminal() {
                 <div class="letter">t</div>
                 <div class="letter">&nbsp;</div>
                 <div class="letter">(</div>
-                <div class="letter">m</div>
-                <div class="letter">y</div>
-                <div class="letter">S</div>
-                <div class="letter">k</div>
-                <div class="letter">i</div>
-                <div class="letter">l</div>
-                <div class="letter">l</div>
-                <div class="letter">s</div>
+                <div class="letter"style={{ color: 'RoyalBlue'}}>m</div>
+                <div class="letter"style={{ color: 'RoyalBlue' }}>y</div>
+                <div class="letter"style={{ color: 'RoyalBlue' }}>{'_'}</div>
+                <div class="letter"style={{ color: 'RoyalBlue' }}>S</div>
+                <div class="letter"style={{ color: 'RoyalBlue' }}>k</div>
+                <div class="letter"style={{ color: 'RoyalBlue' }}>i</div>
+                <div class="letter"style={{ color: 'RoyalBlue' }}>l</div>
+                <div class="letter"style={{ color: 'RoyalBlue' }}>l</div>
+                <div class="letter"style={{ color: 'RoyalBlue' }}>s</div>
                 <div class="letter">)</div>
             </div>
             <div class="row2">

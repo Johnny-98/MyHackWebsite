@@ -7,10 +7,11 @@ import Terminal from './Terminal'
 class Skills extends Component {
     render() {
         return (
+            
             <div className="technicalSkillDiv2" >
                 <div class="terminal2_container">
                     <ul className="circles">
-                        <Circle bgColor="red" style=" float:right; padding-right:30%;" />
+                        <Circle bgColor="red"/>
                         <Circle bgColor="yellow" />
                         <Circle bgColor="green" />
                     </ul>
