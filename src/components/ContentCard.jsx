@@ -14,6 +14,7 @@ function ContentItem(props) {
             </div>
             <h3 className='text'>{props.text1}</h3>
             <h5 className='text'>{props.text2}</h5>
+            
         </div>
     );
 }

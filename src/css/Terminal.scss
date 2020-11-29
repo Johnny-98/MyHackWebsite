@@ -1,0 +1,94 @@
+.terminal2_container {
+    background-color:  #252a33;
+    color: white;
+    text-align: left;  
+    height: auto;
+    width: 70%;
+    display: grid;
+    align-content: baseline;
+    font-family: 'Lucida Console';
+    // SPACE FOR BAR
+    padding-bottom: 2vh;
+    border-radius: 1%;
+}
+  
+
+.technicalSkillDiv2{
+    width: 100%;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+}
+
+
+.circles{
+    width: 100%;
+    z-index: 102;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    max-height: 6.5vh ;
+    padding-left: 0.5vh;
+    padding-top: 0.4vh;
+}
+
+
+
+
+.terminalHead2{
+    padding-left: 5vh;
+   
+}
+
+
+
+   
+.row1, .row2, .row3{
+    position: relative;
+    width: 70%;
+    display:flex;
+    justify-content: left;
+}
+   
+.cursor {
+    width: 0.6em;
+    border-bottom: 5px solid #fff;
+    opacity:0;
+    animation: cursor 1s linear;
+    animation-iteration-count: infinite;
+}
+   
+@for $i from 1 through 22 {
+    .row1 div.letter:nth-child(1n + #{$i}){
+     visibility: hidden;
+     animation: typing 0.1s ease-in $i*0.1s forwards;
+    }
+}
+   
+.row2 {
+    visibility: hidden;
+     animation: typing 0.1s ease-in 2.4s forwards;
+}
+.row3 {
+    visibility: hidden;
+     animation: typing 0.1s ease-in 2.5s forwards;
+}
+   @keyframes cursor {
+    to{opacity:1;}
+   }
+   
+   @keyframes typing {
+    to {visibility: visible;}
+   }
+   
+   @media only screen and (max-width:500px){
+    body{
+     font-size: 18px;
+    }
+   }
+
+
+
+

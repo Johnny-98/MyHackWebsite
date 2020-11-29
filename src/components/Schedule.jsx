@@ -1,14 +1,10 @@
 import React from 'react';
 import { Tabs, Tab } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Content from './Content'
 import '../css/App.css';
 import '../css/table.css';
 import ContentItem from './ContentCard'
 import Peter from '../media/Icons/Peter2.jpg'
-
-
-
 
 
 const Schedule = () => (
@@ -22,18 +18,18 @@ const Schedule = () => (
                     <div className="committee-sec">
                         <ContentItem
                             src={Peter}
-                            text1='Alexandra Manciu'
-                            text2='HACKATHON DIRECTO'
+                            text1='Project 1'
+                            text2='Test'
                         />
                         <ContentItem
                             src={Peter}
-                            text1='Alexandra Manciu'
-                            text2='HACKATHON DIRECTOR'
+                            text1='Project 2'
+                            text2='Test 2'
                         />
                         <ContentItem
                             src={Peter}
-                            text1='Sonia Jakubiak'
-                            text2='SPONSORSHIP DIRECTOR'
+                            text1='Project 3'
+                            text2='Test 3'
                         />
 
                     </div>
@@ -41,18 +37,18 @@ const Schedule = () => (
 
                         <ContentItem
                             src={Peter}
-                            text1='Jonny Elkin'
-                            text2='MARKETING DIRECTOR'
+                            text1='Project 4'
+                            text2='Test 4'
                         />
                         <ContentItem
                             src={Peter}
-                            text1='Ilia Manolov'
-                            text2='MARKETING DIRECTOR'
+                            text1='Project 5'
+                            text2='Test 5'
                         />
                         <ContentItem
                             src={Peter}
-                            text1='Deniz de Barros'
-                            text2='DESIGN DIRECTOR'
+                            text1='Project 6'
+                            text2='Test 6'
                         />
                     </div>
                 </div>
@@ -66,18 +62,18 @@ const Schedule = () => (
 
                         <ContentItem
                             src={Peter}
-                            text1='Alexandra Manciu'
-                            text2='HACKATHON DIRECTO'
+                            text1='Project 1'
+                            text2='Test'
                         />
                         <ContentItem
                             src={Peter}
-                            text1='Alexandra Manciu'
-                            text2='HACKATHON DIRECTOR'
+                            text1='Project 2'
+                            text2='Test'
                         />
                         <ContentItem
                             src={Peter}
-                            text1='Sonia Jakubiak'
-                            text2='SPONSORSHIP DIRECTOR'
+                            text1='Project 3'
+                            text2='Test'
                         />
                     </div>
                 </div>
@@ -91,8 +87,8 @@ const Schedule = () => (
 
                         <ContentItem
                             src={Peter}
-                            text1='Alexandra Manciu'
-                            text2='HACKATHON DIRECTO'
+                            text1='Project Peter'
+                            text2='Hire me plis'
                         />
                     </div>
                 </div>

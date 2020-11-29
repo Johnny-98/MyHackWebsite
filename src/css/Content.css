@@ -63,5 +63,5 @@
     -moz-transition: opacity 1s;
     -o-transition: opacity 1s;
     transition: opacity 1s;
-    border-radius: 50%;
+    border-radius: 20%;
 }

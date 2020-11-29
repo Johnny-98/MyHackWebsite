@@ -9,12 +9,12 @@ import About from './components/About';
 import Footer from './components/Footer';
 import SocialPill from './components/SocialPill';
 import Schedule from './components/Schedule';
-import Projects from './components/Projects';
+import Terminal from './components/Terminal/Skills';
 
 
 import BackgroundEffect from './components/BackgroundEffect';
-
 import "./css/animate.min.css";
+
 
 const App = () => (
   <div className="App">
@@ -29,7 +29,7 @@ const App = () => (
         </ScrollAnimation>
         <ScrollAnimation animateIn='animate__fadeIn'
           animateOut='animate__fadeOut'>
-        <div id="about" style={{paddingTop: "5vw"}}><About /></div>
+        <div id="about" style={{paddingTop: "10vw"}}><About /></div>
         <div style={{marginBottom: "15vw"}} />
         </ScrollAnimation>
 
@@ -41,7 +41,7 @@ const App = () => (
         <div style={{marginBottom: "5vw"}} />
         <ScrollAnimation animateIn='animate__fadeIn'
           animateOut='animate__fadeOut'>
-        <div id="projects" style={{paddingTop: "10vw"}}><Projects /></div>>
+        <div id="projects" style={{paddingTop: "10vw"}}><Terminal /></div>
         </ScrollAnimation>
         <div style={{marginBottom: "5vw"}} />
         <SocialPill />
