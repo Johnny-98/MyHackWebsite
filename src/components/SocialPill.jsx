@@ -16,13 +16,13 @@ const SocialPill = () => {
         <div style={!isDesktop ? { position: "absolute", left: "50%", transform: "translateX(-50%)" } : {}} >
             <div className="hover social" style={!isDesktop ? { position: "unset" }: {}} >
                 <span>Contacts</span>
-                <a className="social-link" href="https://www.facebook.com/oxfordhack2020" target="_blank">
+                <a className="social-link" href="petiodjonov@yahoo.com" target="_blank">
                     <FaEnvelope/>
                 </a>
-                <a className="social-link" href="https://medium.com/@OxfordHack" target="_blank">
+                <a className="social-link" href="https://github.com/Johnny-98" target="_blank">
                     <FaGithub/>
     </a>
-                <a className="social-link" href="https://www.youtube.com/channel/UCEwhr5k4KNnkKgTEbh62p1Q" target="_blank">
+                <a className="social-link" href="https://www.linkedin.com/in/peter-djonov-dzhonov-008037155/" target="_blank">
                     <FaLinkedin/>
                 </a>
             </div>

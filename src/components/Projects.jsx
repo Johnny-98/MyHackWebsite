@@ -4,7 +4,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/App.css';
 import '../css/Project.css';
 import ContentItem from './ContentCard'
-import Peter from '../media/Icons/Peter2.jpg'
+import BookHub from '../media/projects/BookHub.png'
+import MunchMoney from '../media/projects/MunchMoney.png'
+import SpicyChess from '../media/projects/Spicy-Chess.png'
+import CarGame from '../media/projects/They-See-Me-Stalling.png'
+
 
 
 const Projects = () => (
@@ -17,38 +21,28 @@ const Projects = () => (
                 <div className="project-row">
                     <div className="project-sec">
                         <ContentItem
-                            src={Peter}
-                            text1='Project 1'
-                            text2='Test'
+                            src={MunchMoney}
+                            text1='MunchMoney'
+                            text2='AndroidStudio'
                         />
                         <ContentItem
-                            src={Peter}
-                            text1='Project 2'
-                            text2='Test 2'
+                            src={BookHub}
+                            text1='BookHub'
+                            text2='React.js'
                         />
                         <ContentItem
-                            src={Peter}
-                            text1='Project 3'
-                            text2='Test 3'
+                            src={SpicyChess}
+                            text1='SpicyChess'
+                            text2='React.js'
                         />
 
                     </div>
                     <div className="project-sec">
 
                         <ContentItem
-                            src={Peter}
-                            text1='Project 4'
-                            text2='Test 4'
-                        />
-                        <ContentItem
-                            src={Peter}
-                            text1='Project 5'
-                            text2='Test 5'
-                        />
-                        <ContentItem
-                            src={Peter}
-                            text1='Project 6'
-                            text2='Test 6'
+                            src={CarGame}
+                            text1='They-See-Me-Stalling'
+                            text2='React.js'
                         />
                     </div>
                 </div>
@@ -61,19 +55,19 @@ const Projects = () => (
                     <div className="project-sec">
 
                         <ContentItem
-                            src={Peter}
-                            text1='Project 1'
-                            text2='Test'
+                            src={BookHub}
+                            text1='BookHub'
+                            text2='React.js'
                         />
                         <ContentItem
-                            src={Peter}
-                            text1='Project 2'
-                            text2='Test'
+                            src={SpicyChess}
+                            text1='SpicyChess'
+                            text2='React.js'
                         />
                         <ContentItem
-                            src={Peter}
-                            text1='Project 3'
-                            text2='Test'
+                            src={CarGame}
+                            text1='They-See-Me-Stalling'
+                            text2='React.js'
                         />
                     </div>
                 </div>
@@ -86,9 +80,9 @@ const Projects = () => (
                     <div className="project-sec">
 
                         <ContentItem
-                            src={Peter}
-                            text1='Project Peter'
-                            text2='Hire me plis'
+                            src={MunchMoney}
+                            text1='MunchMoney'
+                            text2='AndroidStudio'
                         />
                     </div>
                 </div>

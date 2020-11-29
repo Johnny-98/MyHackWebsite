@@ -48,15 +48,18 @@
 }
 
 .contenty-img {
-    position: absolute;
-    left: 0;
-    -webkit-transition: opacity 1s;
-    -moz-transition: opacity 1s;
-    -o-transition: opacity 1s;
-    transition: opacity 1s;
+    padding: 1%;
+    text-align: center;
+    display: grid;
+    place-items: center;
     border-radius: 20%;
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
 
 }
+
+
 
 .pop_effect:hover {
     transform: scale(1.1);

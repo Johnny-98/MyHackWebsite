@@ -41,7 +41,7 @@ function Terminal() {
                     <div class="letter" style={{ color: 'RoyalBlue' }}>l</div>
                     <div class="letter" style={{ color: 'RoyalBlue' }}>s</div>
                     <div class="letter">)</div>
-                </div>) : (<div class="row1" style={{fontSize: "20px"}}>
+                </div>) : (<div class="row1" style={{ fontSize: "20px" }}>
                     <div class="console"> {'>'} </div>
                     <div class="console">{'>'} </div>
                     <div class="console">{'>'} </div>
@@ -53,7 +53,7 @@ function Terminal() {
                     <div class="letter">t</div>
                     <div class="letter">&nbsp;</div>
                     <div class="letter">(</div>
-                    <div class="letter" style={{ color: 'RoyalBlue'}}>m</div>
+                    <div class="letter" style={{ color: 'RoyalBlue' }}>m</div>
                     <div class="letter" style={{ color: 'RoyalBlue' }}>y</div>
                     <div class="letter" style={{ color: 'RoyalBlue' }}>{'_'}</div>
                     <div class="letter" style={{ color: 'RoyalBlue' }}>S</div>
@@ -79,10 +79,10 @@ function Terminal() {
                     <div class="letter">&nbsp; - JavaScript</div>
                 </div>
                 <div class="row2">
-                    <div class="letter">&nbsp; - ReactJs</div>
+                    <div class="letter">Back-end:</div>
                 </div>
                 <div class="row2">
-                    <div class="letter">Back-end:</div>
+                    <div class="letter">&nbsp; - Python</div>
                 </div>
                 <div class="row2">
                     <div class="letter">&nbsp; - NodeJs</div>
@@ -97,10 +97,10 @@ function Terminal() {
                     <div class="letter">&nbsp; - C#</div>
                 </div>
                 <div class="row2">
-                    <div class="letter">&nbsp; - Python</div>
+                    <div class="letter">&nbsp; - Ruby on Rails</div>
                 </div>
                 <div class="row2">
-                    <div class="letter">&nbsp; - SocketIO </div>
+                    <div class="letter">&nbsp; - MATLAB </div>
                 </div>
                 <div class="row2">
                     <div class="letter">&nbsp; - Spring</div>
@@ -112,16 +112,19 @@ function Terminal() {
                     <div class="letter">Databases:</div>
                 </div>
                 <div class="row2">
-                    <div class="letter">&nbsp; - PostgreSQL</div>
-                </div>
-                <div class="row2">
                     <div class="letter">&nbsp; - MySql</div>
                 </div>
                 <div class="row2">
-                    <div class="letter">&nbsp; - MongoDB</div>
+                    <div class="letter">&nbsp; - Firebase</div>
                 </div>
                 <div class="row2">
-                    <div class="letter">&nbsp; - Firebase</div>
+                    <div class="letter">Other:</div>
+                </div>
+                <div class="row2">
+                    <div class="letter">&nbsp; - Android studio</div>
+                </div>
+                <div class="row2">
+                    <div class="letter">&nbsp; - Unity</div>
                 </div>
                 <div class="row3">
                     <div class="console">{'>'} </div>

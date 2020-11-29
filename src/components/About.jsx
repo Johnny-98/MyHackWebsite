@@ -15,7 +15,7 @@ const About = () => (
                 <div className="col-lg-6 col-md-12 order-last">
                 <div className="title">ABOUT ME</div>
                     <p className="main-text">
-                    The history of textbooks dates back to ancient civilizations. For example, Ancient Greeks wrote educational texts. The modern textbook has its roots in the mass production made possible by the printing press. Johannes Gutenberg himself may have printed editions of Ars Minor, a schoolbook on Latin grammar by Aelius Donatus. Early textbooks were used by tutors and teachers (e.g. alphabet books), as well as by individuals who taught themselves.
+                    Hello, my name is Peter Dzhonov and I am a graduate student in the department of Computer Science at the University of Surrey in Guildford UK graduating in May 2021. I enjoy working with ReactJS and Python and I hope to become a good web-developer with a background in artificial intelligence. My process is iterative; I approach each problem as a learning experience. Currently I am working on little projects to put on my GitHub while searching for graduate and entry level jobs. 
                     </p>
                 </div>
                
