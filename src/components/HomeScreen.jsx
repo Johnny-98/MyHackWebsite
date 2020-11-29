@@ -2,20 +2,19 @@ import React from 'react';
 import '../css/LandingScreen.css';
 import '../css/App.css'
 import { useMediaQuery } from 'react-responsive';
-import {isSafari} from 'react-device-detect';
 import GithubButton from './GithubButton';
-import LandingArrow from './LandingArrow';
+import HomeArrow from './HomeArrow';
 
 import User from './User_Icon'
 
 
-const LandingScreen = () => {
+const HomeScreen = () => {
 
     const isDesktop = !useMediaQuery({ query: '(max-width: 1224px)' });
 
     return (
-        <div className="landing">
-            <div className="landing"  >
+        <div className="home">
+            <div className="home"  >
                 <User />
             </div>
             <p className="coding">
@@ -25,9 +24,9 @@ const LandingScreen = () => {
 
             {/*TODO:why do we only allow this for mobile??*/}
             {!isDesktop && <GithubButton place="front" />}
-            <LandingArrow />
+            <HomeArrow />
         </div>
     );
 }
 
-export default LandingScreen;
+export default HomeScreen;

@@ -4,7 +4,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 import './css/App.css';
 
 import Navbar from './components/Navbar'; 
-import LandingScreen from './components/LandingScreen';
+import HomeScreen from './components/HomeScreen';
 import About from './components/About';
 import Footer from './components/Footer';
 import SocialPill from './components/SocialPill';
@@ -24,7 +24,7 @@ const App = () => (
       <div style={{scrollBehavior: 'smooth'}}>
         <ScrollAnimation animateIn='animate__fadeIn'
           animateOut='animate__fadeOut'>
-        <div id="landingscreen"><LandingScreen /></div>
+        <div id="landingscreen"><HomeScreen /></div>
         <div style={{marginBottom: "20vw"}} />
         </ScrollAnimation>
         <ScrollAnimation animateIn='animate__fadeIn'

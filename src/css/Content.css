@@ -57,3 +57,7 @@
     border-radius: 20%;
 
 }
+
+.pop_effect:hover {
+    transform: scale(1.1);
+}
