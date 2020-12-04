@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/MyHackWebsite/static/css/main.7df41f31.chunk.css",
+    "main.js": "/MyHackWebsite/static/js/main.08e416d4.chunk.js",
+    "main.js.map": "/MyHackWebsite/static/js/main.08e416d4.chunk.js.map",
+    "runtime-main.js": "/MyHackWebsite/static/js/runtime-main.c9085b7b.js",
+    "runtime-main.js.map": "/MyHackWebsite/static/js/runtime-main.c9085b7b.js.map",
+    "static/css/2.1a02f21c.chunk.css": "/MyHackWebsite/static/css/2.1a02f21c.chunk.css",
+    "static/js/2.891e668c.chunk.js": "/MyHackWebsite/static/js/2.891e668c.chunk.js",
+    "static/js/2.891e668c.chunk.js.map": "/MyHackWebsite/static/js/2.891e668c.chunk.js.map",
+    "index.html": "/MyHackWebsite/index.html",
+    "static/css/2.1a02f21c.chunk.css.map": "/MyHackWebsite/static/css/2.1a02f21c.chunk.css.map",
+    "static/css/main.7df41f31.chunk.css.map": "/MyHackWebsite/static/css/main.7df41f31.chunk.css.map",
+    "static/js/2.891e668c.chunk.js.LICENSE.txt": "/MyHackWebsite/static/js/2.891e668c.chunk.js.LICENSE.txt",
+    "static/media/BookHub.b1e65179.png": "/MyHackWebsite/static/media/BookHub.b1e65179.png",
+    "static/media/MunchMoney.05e257ef.png": "/MyHackWebsite/static/media/MunchMoney.05e257ef.png",
+    "static/media/Peter1.0c427eef.png": "/MyHackWebsite/static/media/Peter1.0c427eef.png",
+    "static/media/Peter2.31df53d3.jpg": "/MyHackWebsite/static/media/Peter2.31df53d3.jpg",
+    "static/media/Spicy-Chess.f431680b.png": "/MyHackWebsite/static/media/Spicy-Chess.f431680b.png",
+    "static/media/They-See-Me-Stalling.5917358b.png": "/MyHackWebsite/static/media/They-See-Me-Stalling.5917358b.png",
+    "static/media/forest1.58459a4d.png": "/MyHackWebsite/static/media/forest1.58459a4d.png",
+    "static/media/programmer.bf40e0f8.gif": "/MyHackWebsite/static/media/programmer.bf40e0f8.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c9085b7b.js",
+    "static/css/2.1a02f21c.chunk.css",
+    "static/js/2.891e668c.chunk.js",
+    "static/css/main.7df41f31.chunk.css",
+    "static/js/main.08e416d4.chunk.js"
+  ]
+}
