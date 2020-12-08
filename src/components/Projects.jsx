@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/App.css';
 import '../css/Project.css';
 import ContentItem from './ContentCard'
-import BookHub from '../media/projects/BookHub.png'
+import GhostWrite from '../media/projects/BookHub.png'
 import MunchMoney from '../media/projects/MunchMoney.png'
 import SpicyChess from '../media/projects/Spicy-Chess.png'
 import CarGame from '../media/projects/They-See-Me-Stalling.png'
@@ -20,30 +20,37 @@ const Projects = () => (
             <Tab eventKey="ALL" title="ALL">
                 <div className="project-row">
                     <div className="project-sec">
-                        <ContentItem
-                            src={MunchMoney}
-                            text1='MunchMoney'
-                            text2='AndroidStudio'
-                        />
-                        <ContentItem
-                            src={BookHub}
-                            text1='BookHub'
-                            text2='React.js'
-                        />
-                        <ContentItem
-                            src={SpicyChess}
-                            text1='SpicyChess'
-                            text2='React.js'
-                        />
+   
+                            <ContentItem
+                                src={MunchMoney}
+                                text1='MunchMoney'
+                                text2='AndroidStudio'
+                            />
+ 
+                        <a href="https://github.com/Ghost-Write/client">
+                            <ContentItem
+                                src={GhostWrite}
+                                text1='BookHub'
+                                text2='React.js'
+                            />
+                        </a>
+                        <a href="https://github.com/Hackathon-Buddies/Spicy-Chess">
+                            <ContentItem
+                                src={SpicyChess}
+                                text1='SpicyChess'
+                                text2='React.js'
+                            />
+                        </a>
 
                     </div>
                     <div className="project-sec">
-
-                        <ContentItem
-                            src={CarGame}
-                            text1='They-See-Me-Stalling'
-                            text2='React.js'
-                        />
+                        <a href="https://github.com/Hackathon-Buddies/They-see-me-stalling">
+                            <ContentItem
+                                src={CarGame}
+                                text1='They-See-Me-Stalling'
+                                text2='React.js'
+                            />
+                        </a>
                     </div>
                 </div>
             </Tab>
@@ -54,21 +61,27 @@ const Projects = () => (
                 <div className="project-row">
                     <div className="project-sec">
 
-                        <ContentItem
-                            src={BookHub}
-                            text1='BookHub'
-                            text2='React.js'
-                        />
-                        <ContentItem
-                            src={SpicyChess}
-                            text1='SpicyChess'
-                            text2='React.js'
-                        />
-                        <ContentItem
-                            src={CarGame}
-                            text1='They-See-Me-Stalling'
-                            text2='React.js'
-                        />
+                        <a href="https://github.com/Ghost-Write/client">
+                            <ContentItem
+                                src={GhostWrite}
+                                text1='BookHub'
+                                text2='React.js'
+                            />
+                        </a>
+                        <a href="https://github.com/Hackathon-Buddies/Spicy-Chess">
+                            <ContentItem
+                                src={SpicyChess}
+                                text1='SpicyChess'
+                                text2='React.js'
+                            />
+                        </a>
+                        <a href="https://github.com/Hackathon-Buddies/They-see-me-stalling">
+                            <ContentItem
+                                src={CarGame}
+                                text1='They-See-Me-Stalling'
+                                text2='React.js'
+                            />
+                        </a>
                     </div>
                 </div>
             </Tab>
